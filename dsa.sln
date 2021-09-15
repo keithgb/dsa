@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hanoi", "Hanoi", "{BA5BBECA-C894-42B2-A359-A9E9DA12E2F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanoi", "Hanoi\Hanoi.csproj", "{DEDC6AAB-3C6A-4E59-8202-D79A83993D6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hanoi", "Hanoi\Hanoi.csproj", "{DEDC6AAB-3C6A-4E59-8202-D79A83993D6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SearchSortedArray", "SearchSortedArray", "{D884AAEB-96EB-4B23-BAFE-525D03C39C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchSortedArray", "SearchSortedArray\SearchSortedArray.csproj", "{02015459-D838-4892-AA75-5D2A4DCAFF1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{DEDC6AAB-3C6A-4E59-8202-D79A83993D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEDC6AAB-3C6A-4E59-8202-D79A83993D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEDC6AAB-3C6A-4E59-8202-D79A83993D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02015459-D838-4892-AA75-5D2A4DCAFF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02015459-D838-4892-AA75-5D2A4DCAFF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02015459-D838-4892-AA75-5D2A4DCAFF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02015459-D838-4892-AA75-5D2A4DCAFF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DEDC6AAB-3C6A-4E59-8202-D79A83993D6D} = {BA5BBECA-C894-42B2-A359-A9E9DA12E2F3}
+		{02015459-D838-4892-AA75-5D2A4DCAFF1C} = {D884AAEB-96EB-4B23-BAFE-525D03C39C31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {95B590E7-E557-465D-83FB-1377C8913CB4}
