@@ -22,10 +22,10 @@ namespace Hanoi
             src.Push(1);
             src.Push(0);
 
-            Move(3, src, dest, aux);
+            Hanoi(3, src, dest, aux);
         }
 
-        private static void Move(
+        private static void Hanoi(
             int discs,
             Stack<int> src,
             Stack<int> dest,
@@ -34,9 +34,9 @@ namespace Hanoi
             //Base condition stop calling if disc = 0;
             if (discs == 0) { return; }
 
-            Move(discs - 1, src, aux, dest); // move n-1 from src to aux
+            Hanoi(discs - 1, src, aux, dest); // move n-1 from src to aux
             dest.Push(src.Pop());   //move from src to dest
-            Move(discs - 1, aux, dest, src);  //move n-1 from aux to dest
+            Hanoi(discs - 1, aux, dest, src);  //move n-1 from aux to dest
         }
     }
 }
